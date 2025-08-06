@@ -7,43 +7,33 @@ import os
 
 # 定义广告过滤器URL列表
 URL_LIST = [
-  "https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/mhhakimpornlist.txt",
-"https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/porn-list.txt",
-"https://raw.githubusercontent.com/NoGitHubForYou/yafp/master/domains_adult",
-"https://raw.githubusercontent.com/NyeUsr/Blacklist/master/uBlacklist/Porn.txt",
-"https://raw.githubusercontent.com/OliverJAsh/easylist/master/easylist_adult/adult_adservers.txt",
-"https://raw.githubusercontent.com/orange1688/zflow/master/url_filter/adult_url_filter_domain.txt",
-"https://raw.githubusercontent.com/oriay/genfilter/master/public/clash/category-porn",
-"https://raw.githubusercontent.com/pq6p41fgt6k/potential-octo-parakeet/master/porn.txt",
-"https://raw.githubusercontent.com/rampageX/block/master/assets/sources/filter/clefspeare-pornhosts.txt",
-"https://raw.githubusercontent.com/shane-walker/easylist/master/easylist_adult/adult_specific_block.txt",
-"https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts",
-"https://raw.githubusercontent.com/tanmoumou252/NSFWruleset/master/NSFW.yaml",
-"https://raw.githubusercontent.com/tiuxo/hosts/master/porn",
-"https://raw.githubusercontent.com/tvpmb/easylist/master/easylist_adult/adult_specific_block.txt",
-"https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-porn",
-"https://raw.githubusercontent.com/Zorus/block/master/assets/active/filter/sinfonietta-porn.txt",
-"https://raw.githubusercontent.com/Zydnar/pihole_malware_blocklist/refs/heads/main/pihole_blocklist.txt",
-"https://raw.githubusercontent.com/aarakh/hosts/refs/heads/master/hosts",
-"https://raw.githubusercontent.com/fenixvd/pi-hole-lists/refs/heads/main/ban_list.txt",
-"https://raw.githubusercontent.com/r0xd4n3t/pihole-adblock-lists/refs/heads/main/pihole_adlists.txt",
-"https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/refs/heads/master/newhosts-final.hosts",
-"https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/refs/heads/master/newhosts-final-Dual.hosts",
-"https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/refs/heads/master/cpbl-abp-list.txt",
-"https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/refs/heads/master/combined-final.cidr",
-"https://raw.githubusercontent.com/jtbrough/pihole-hosts/refs/heads/main/firebog-ticked-hosts",
-"https://raw.githubusercontent.com/musdx/blist/refs/heads/master/blocklist.txt",
-"https://raw.githubusercontent.com/jpgpi250/piholemanual/refs/heads/master/DOH/DOHadb.txt",
-"https://raw.githubusercontent.com/Bastiaantjuhh/hostfile-merge/refs/heads/main/hostfiles/blacklist.txt",
-"https://raw.githubusercontent.com/elliottophellia/adlist/refs/heads/main/hosts",
-"https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_nsfw.txt",
-"https://raw.githubusercontent.com/8680/GOODBYEADS/refs/heads/master/data/rules/adblock.txt"
+    "https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_attach.txt",
+"https://raw.githubusercontent.com/utada1stlove/adguardhome/refs/heads/main/merged_rules.txt",
+"https://raw.githubusercontent.com/8680/GOODBYEADS/refs/heads/master/data/rules/allow.txt",
+"https://raw.githubusercontent.com/8680/GOODBYEADS/refs/heads/master/data/rules/dns.txt",
+"https://raw.githubusercontent.com/8680/GOODBYEADS/refs/heads/master/data/rules/adblock.txt",
+"https://raw.githubusercontent.com/NaivG/adlist/main/extralist.txt",
+"https://raw.githubusercontent.com/NaivG/adlist/main/mainlist.txt",
+"https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt",
+"https://raw.githubusercontent.com/bryopsida/blocklist/refs/heads/main/dns3.txt",
+"https://raw.githubusercontent.com/bryopsida/blocklist/refs/heads/main/dns2.txt",
+"https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt",
+"https://raw.githubusercontent.com/bryopsida/blocklist/refs/heads/main/dns1.txt",
+"https://raw.githubusercontent.com/bryopsida/blocklist/refs/heads/main/dns0.txt",
+"https://objects.githubusercontent.com/github-production-release-asset-2e65be/371767474/535e74a2-a2b6-4a64-a411-21e13a20ba5e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250708%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250708T114536Z&X-Amz-Expires=1800&X-Amz-Signature=70e7b51a651907151e7ce6260b3e87b15de88f245eea47a347c543b6cf581fa8&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DALLOW_DOMAIN.txt&response-content-type=application%2Foctet-stream",
+"https://objects.githubusercontent.com/github-production-release-asset-2e65be/371767474/758581fb-26d3-455c-b24d-b0c878531213?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250708%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250708T113959Z&X-Amz-Expires=1800&X-Amz-Signature=657829e7798cf859c15bc4fd644ec19995071de3dbc9cc15ee0f08fce334adfb&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DBLOCK_DOMAIN.txt&response-content-type=application%2Foctet-stream",
+"https://raw.githubusercontent.com/Skiddle-ID/blocklist/refs/heads/main/situs_judi_002.txt",
+"https://raw.githubusercontent.com/Skiddle-ID/blocklist/refs/heads/main/situs_judi_001.txt",
+"https://raw.githubusercontent.com/Skiddle-ID/blocklist/refs/heads/main/domains_004.txt",
+"https://raw.githubusercontent.com/Skiddle-ID/blocklist/refs/heads/main/domains_003.txt",
+"https://raw.githubusercontent.com/Skiddle-ID/blocklist/refs/heads/main/domains_002.txt",
+"https://raw.githubusercontent.com/Skiddle-ID/blocklist/refs/heads/main/domains_001.txt"
 
 ]
 
 # 日志文件路径
 LOG_FILE = "adblock_log.txt"
-OUTPUT_FILE = "adblock_reject2.yaml"  # Mihomo 使用的 YAML 格式
+OUTPUT_FILE = "adblock_reject7.yaml"  # Mihomo 使用的 YAML 格式
 
 def is_valid_dns_domain(domain):
     """验证域名是否符合DNS规范"""

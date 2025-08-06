@@ -7,43 +7,51 @@ import os
 
 # 定义广告过滤器URL列表
 URL_LIST = [
-  "https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/mhhakimpornlist.txt",
-"https://raw.githubusercontent.com/nizekun/adguardhome-blocklist/main/porn-list.txt",
-"https://raw.githubusercontent.com/NoGitHubForYou/yafp/master/domains_adult",
-"https://raw.githubusercontent.com/NyeUsr/Blacklist/master/uBlacklist/Porn.txt",
-"https://raw.githubusercontent.com/OliverJAsh/easylist/master/easylist_adult/adult_adservers.txt",
-"https://raw.githubusercontent.com/orange1688/zflow/master/url_filter/adult_url_filter_domain.txt",
-"https://raw.githubusercontent.com/oriay/genfilter/master/public/clash/category-porn",
-"https://raw.githubusercontent.com/pq6p41fgt6k/potential-octo-parakeet/master/porn.txt",
-"https://raw.githubusercontent.com/rampageX/block/master/assets/sources/filter/clefspeare-pornhosts.txt",
-"https://raw.githubusercontent.com/shane-walker/easylist/master/easylist_adult/adult_specific_block.txt",
-"https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts",
-"https://raw.githubusercontent.com/tanmoumou252/NSFWruleset/master/NSFW.yaml",
-"https://raw.githubusercontent.com/tiuxo/hosts/master/porn",
-"https://raw.githubusercontent.com/tvpmb/easylist/master/easylist_adult/adult_specific_block.txt",
-"https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-porn",
-"https://raw.githubusercontent.com/Zorus/block/master/assets/active/filter/sinfonietta-porn.txt",
-"https://raw.githubusercontent.com/Zydnar/pihole_malware_blocklist/refs/heads/main/pihole_blocklist.txt",
-"https://raw.githubusercontent.com/aarakh/hosts/refs/heads/master/hosts",
-"https://raw.githubusercontent.com/fenixvd/pi-hole-lists/refs/heads/main/ban_list.txt",
-"https://raw.githubusercontent.com/r0xd4n3t/pihole-adblock-lists/refs/heads/main/pihole_adlists.txt",
-"https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/refs/heads/master/newhosts-final.hosts",
-"https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/refs/heads/master/newhosts-final-Dual.hosts",
-"https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/refs/heads/master/cpbl-abp-list.txt",
-"https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/refs/heads/master/combined-final.cidr",
-"https://raw.githubusercontent.com/jtbrough/pihole-hosts/refs/heads/main/firebog-ticked-hosts",
-"https://raw.githubusercontent.com/musdx/blist/refs/heads/master/blocklist.txt",
-"https://raw.githubusercontent.com/jpgpi250/piholemanual/refs/heads/master/DOH/DOHadb.txt",
-"https://raw.githubusercontent.com/Bastiaantjuhh/hostfile-merge/refs/heads/main/hostfiles/blacklist.txt",
-"https://raw.githubusercontent.com/elliottophellia/adlist/refs/heads/main/hosts",
-"https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_nsfw.txt",
-"https://raw.githubusercontent.com/8680/GOODBYEADS/refs/heads/master/data/rules/adblock.txt"
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt000",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt001",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt002",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt003",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt004",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt005",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt006",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt007",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt008",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt009",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt010",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt011",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt012",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt013",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt014",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt015",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt016",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt017",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt018",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt019",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt020",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt021",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt022",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt023",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt024",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt025",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt026",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt027",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt028",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt029",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt030",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt031",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt032",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt033",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt034",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt035",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt036",
+"https://github.com/petrmikes/piholeBlacklistGenerator/raw/refs/heads/main/blacklistFinal.txt037",
+"https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/cpbl-abp-list.txt"
 
 ]
 
 # 日志文件路径
 LOG_FILE = "adblock_log.txt"
-OUTPUT_FILE = "adblock_reject2.yaml"  # Mihomo 使用的 YAML 格式
+OUTPUT_FILE = "adblock_reject5.yaml"  # Mihomo 使用的 YAML 格式
 
 def is_valid_dns_domain(domain):
     """验证域名是否符合DNS规范"""
