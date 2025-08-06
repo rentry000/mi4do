@@ -60,19 +60,7 @@ URL_LIST = [
 "https://raw.githubusercontent.com/FreeZoneAT/pihole-blocklist/refs/heads/main/smartblock_part3.txt",
 "https://raw.githubusercontent.com/FreeZoneAT/pihole-blocklist/refs/heads/main/smartblock_part2.txt",
 "https://raw.githubusercontent.com/FreeZoneAT/pihole-blocklist/refs/heads/main/smartblock_part1.txt",
-"https://raw.githubusercontent.com/Bastiaantjuhh/hostfile-merge/refs/heads/main/hostfiles/blacklist.txt",
-"https://objects.githubusercontent.com/github-production-release-asset-2e65be/882358246/c0dd6b55-d5a2-4520-acfd-df1b783946df?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250709%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250709T121535Z&X-Amz-Expires=1800&X-Amz-Signature=ec115f97eb3dd11623d89cb0177ef137961688bb7e3024ca6358aaa31301e695&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DPiHoleClient_1.4.0_Android.apk&response-content-type=application%2Fvnd.android.package-archive",
-"https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/AdBlocking/adblock.txt",
-"https://raw.githubusercontent.com/Melting-Core-Studios/Blocklists/refs/heads/main/Tracking_blocklist/full_anti_track.txt",
-"https://objects.githubusercontent.com/github-production-release-asset-2e65be/722153127/89c25b46-4c0b-458e-999f-3670e92a04ce?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250708%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250708T171417Z&X-Amz-Expires=1800&X-Amz-Signature=5ece31761b9debb27ce3e12ab9f08270ca46031b82f559c9eb2f2a239843b7cc&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DAdGuardHomeForRoot_arm64.zip&response-content-type=application%2Foctet-stream",
-"https://raw.githubusercontent.com/zhiyuan1i/adblock_list/refs/heads/master/adblock_privacy.txt",
-"https://raw.githubusercontent.com/zhiyuan1i/adblock_list/refs/heads/master/adblock_plus.txt",
-"https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/dns.txt",
-"https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/all.txt",
-"https://raw.githubusercontent.com/Chaniug/FilterFusion/main/dist/adblock-main.txt",
-"https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/gambling.txt",
-"https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/ultimate.txt",
-"https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_Chinese.txt"
+"https://raw.githubusercontent.com/Bastiaantjuhh/hostfile-merge/refs/heads/main/hostfiles/blacklist.txt"
 
 ]
 
