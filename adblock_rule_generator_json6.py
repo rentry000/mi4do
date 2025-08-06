@@ -52,15 +52,8 @@ URL_LIST = [
 "https://raw.githubusercontent.com/aarakh/hosts/refs/heads/master/hosts",
 "https://raw.githubusercontent.com/skyhigh24/BlockList/refs/heads/main/GravityExport.txt",
 "https://raw.githubusercontent.com/r0xd4n3t/pihole-adblock-lists/refs/heads/main/pihole_adlists.txt",
-"https://raw.githubusercontent.com/Max-Pare/pihole-adlist-merged/refs/heads/main/merged.txt",
-"https://raw.githubusercontent.com/DiegoRamil/pihole-blocklist/refs/heads/main/ads.txt",
-"https://media.githubusercontent.com/media/UninvitedActivity/PiHoleLists/refs/heads/main/NRD/NRD-07_All.nrd",
-"https://raw.githubusercontent.com/jtbrough/pihole-hosts/refs/heads/main/firebog-ticked-hosts",
-"https://raw.githubusercontent.com/musdx/blist/refs/heads/master/blocklist.txt",
-"https://raw.githubusercontent.com/FreeZoneAT/pihole-blocklist/refs/heads/main/smartblock_part3.txt",
-"https://raw.githubusercontent.com/FreeZoneAT/pihole-blocklist/refs/heads/main/smartblock_part2.txt",
-"https://raw.githubusercontent.com/FreeZoneAT/pihole-blocklist/refs/heads/main/smartblock_part1.txt",
-"https://raw.githubusercontent.com/Bastiaantjuhh/hostfile-merge/refs/heads/main/hostfiles/blacklist.txt"
+"https://raw.githubusercontent.com/Max-Pare/pihole-adlist-merged/refs/heads/main/merged.txt"
+
 
 ]
 
