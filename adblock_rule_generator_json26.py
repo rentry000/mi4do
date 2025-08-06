@@ -20,7 +20,7 @@ URL_LIST = [
 "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/ultimate.txt",
 "https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_Chinese.txt",
 "https://raw.githubusercontent.com/DiegoRamil/pihole-blocklist/refs/heads/main/ads.txt"
-
+"https://media.githubusercontent.com/media/UninvitedActivity/PiHoleLists/refs/heads/main/NRD/NRD-07_All.nrd",
 
 
 ]
